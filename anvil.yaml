@@ -1,7 +1,7 @@
 services: []
-package_name: simple_calculator___anvil
+package_name: simple_calculator
 allow_embedding: false
-name: simple calculator - anvil
+name: simple-calculator
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
 metadata: {}
