@@ -1,0 +1,35 @@
+container:
+  type: ColumnPanel
+  properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: small, col_widths: '{}',
+    spacing_below: small, background: '#000'}
+components:
+- type: Spacer
+  properties: {visible: true, spacing_above: small, spacing_below: small, height: '30',
+    tooltip: ''}
+  name: spacer_1
+  layout_properties: {grid_position: 'ICRLTX,DGJSRJ'}
+- type: RichText
+  properties: {role: null, align: center, tooltip: '', enable_slots: true, border: '',
+    foreground: '#fff', visible: true, font_size: 48, content: Calculator - Anvil,
+    font: '', spacing_above: small, spacing_below: small, data: null, background: '',
+    format: markdown}
+  name: rich_text_1
+  layout_properties: {grid_position: 'ZRYDCN,TCPAXA'}
+  components:
+  - type: Spacer
+    properties: {visible: true, spacing_above: small, spacing_below: small, height: '10',
+      tooltip: ''}
+    name: spacer_2
+    layout_properties: {}
+  - type: TextBox
+    properties: {}
+    name: text_box_1
+    layout_properties: {}
+- type: Spacer
+  properties: {visible: true, spacing_above: small, spacing_below: small, height: '10',
+    tooltip: ''}
+  name: spacer_2_copy
+  layout_properties:
+    col_widths: {}
+    grid_position: OIFWNB,BWIMLM
